@@ -23,6 +23,13 @@ function App(){
       return ( <><p>{each.user_id}</p> 
          <p>{each.distance}</p>
          <p>{each.from_address.firstName}</p>
+         <p>{each.moving_from}</p>
+         <p>{each.items.customItems.items.map((each)=>{
+          return <>
+            <p>{each.id}</p>
+            <p>{each.item_description}</p>
+          </>
+         })}</p>
       </>)
 })} 
     

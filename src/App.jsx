@@ -11,7 +11,7 @@ function App(){
     const response = await fetch(apiUrl, options) 
     const data = await response.json() 
     setDataList(data)
-    
+    console.log(data)
   }
   
   
@@ -22,9 +22,12 @@ function App(){
     {dataList && dataList.Customer_Estimate_Flow.map((each)=>{
       return ( <><p>{each.user_id}</p> 
          <p>{each.distance}</p>
+         <p>{each.from_address.firstName}</p>
       </>)
-})}
+})} 
+    
     </>
+    
    
   </div>
  )

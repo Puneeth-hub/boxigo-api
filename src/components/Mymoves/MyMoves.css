@@ -1,0 +1,166 @@
+.top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-left: 40px;
+}
+.from-container{
+    width: 40%;
+}
+.from-container-two{
+    width: 40%;
+}
+label {
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+}
+p {
+    font-size: 14px;
+    
+}
+.icon {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+.icon-container {
+    background-color: #ffff;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon-contianer-two{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+.request-item{
+    width: 10%;
+}
+.id {
+    color: red;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 600;
+}
+.discliamer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.dis {
+    font-size: 18px;
+    font-weight: bold;
+}
+.span {
+    color: #000000;
+    font-weight: bold;
+}
+.war {
+    margin-right: 10px;
+    margin-left: 40px;
+}
+.war-icon {
+    color: red;
+}
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.h {
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.red-border {
+    border: 1px solid red;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    color: red;
+    margin-right: 12px;
+    cursor: pointer;
+    outline: none;
+}
+.red-background{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: red;
+    margin-right: 12px;
+}
+.red-background1{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #000000;
+    margin-right: 12px;
+}
+.line {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 100%;
+    border: 1px solid grey;
+    color: grey;
+    background-color: grey;
+}
+.second-part-container {
+    width: 90%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.second-first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-red {
+    color: red;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Roboto";
+}
+.sec-black {
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+.l-t {
+    font-size: 16px;
+}

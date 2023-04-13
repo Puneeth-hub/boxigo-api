@@ -14,6 +14,7 @@ const Samplemove = (props)=>{
     const data = props
     const each = data.each
     
+    
     const handleViewDetails = ()=>{
         setViewDetails(!viewDetails)
     }
@@ -117,7 +118,7 @@ const Samplemove = (props)=>{
                                                 </div>
                                                 </div>
                                                 <div>
-                                                    <InvertoryDetails deta={data}/>
+                                                    <InvertoryDetails />
                                                 </div>
                                             </div>
                                     

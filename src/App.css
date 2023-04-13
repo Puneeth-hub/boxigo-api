@@ -1,0 +1,30 @@
+.silder-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .silder-component{
+    background-color: rgb(194, 4, 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 100%;
+    width: 15%;
+  }
+  .app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+  }
+  .button{
+    width: 30%;
+    margin: 5px;
+    padding: 5px;
+    
+  }
